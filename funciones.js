@@ -1,5 +1,4 @@
 const fs = require('fs');
-const AlumnoCurso = require('./AlumnoCurso.js');
 function cargar(fichero) {
     try {
         const data = fs.readFileSync(fichero, 'utf8');
